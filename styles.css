@@ -73,15 +73,15 @@ ul li {
   font-weight: inherit;
   font-size: 14px;
 }
-ul li a {
+.nav-link {
   position: relative;
 }
 
-ul li a:active::before,
-ul li a:focus::before {
+.nav-link:active::before,
+.nav-link:focus::before {
   opacity: 1;
 }
-ul li a::before {
+.nav-link::before {
   background-image: url(img/treangle-mini.svg);
   content: "";
   width: 8px;
