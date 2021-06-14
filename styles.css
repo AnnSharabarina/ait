@@ -60,6 +60,8 @@ body {
   transition: all 300ms ease-in-out;
   cursor: pointer;
   text-transform: uppercase;
+  float: left;
+  margin: 0 10px;
 }
 .button:hover {
   color: #000;
