@@ -67,9 +67,6 @@ body {
   border-color: #000;
 }
 
-.flex-start {
-  margin-ri: ;
-}
 .header {
   display: flex;
   flex-direction: row;
