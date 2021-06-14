@@ -1,6 +1,43 @@
+@font-face {
+  font-family: "TTCommons-Black";
+  src: url(font/TTCommons-Black.ttf), url(font/TTCommons-Black.eot),
+    url(font/TTCommons-Black.woff);
+}
+@font-face {
+  font-family: "TTCommons-Light";
+  src: url(font/TTCommons-Light.ttf), url(font/TTCommons-Light.eot),
+    url(font/TTCommons-Light.woff);
+}
+@font-face {
+  font-family: "TTCommons-Medium";
+  src: url(font/TTCommons-Medium.eot), url(font/TTCommons-Medium.ttf),
+    url(font/TTCommons-Medium.woff);
+}
+@font-face {
+  font-family: "TTCommons-Bold";
+  src: url(font/TTCommons-Bold.eot), url(font/TTCommons-Bold.ttf),
+    url(font/TTCommons-Bold.woff);
+}
+@font-face {
+  font-family: "TTCommons-Regular";
+  src: url(font/TTCommons-Regular.eot), url(font/TTCommons-Regular.ttf),
+    url(font/TTCommons-Regular.woff);
+}
+
+:root {
+  --main-bg-color: #2e2e33;
+  --font-bold: "TTCommons-Bold";
+  --font-light: "TTCommons-Light";
+  --font-black: "TTCommons-Black";
+  --font-medium: "TTCommons-Medium";
+  --font-regular: "TTCommons-Regular";
+  --transition: opacity 0.3s ease-in-out;
+}
+
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -29,10 +66,9 @@ body {
   background-color: transparent;
   border-color: #000;
 }
-.photo {
-  width: 103%;
-  height: auto;
-  margin: 35px;
+
+.flex-start {
+  margin-ri: ;
 }
 .header {
   display: flex;
@@ -112,15 +148,6 @@ a {
   width: 15%;
 }
 
-:root {
-  --main-bg-color: #2e2e33;
-  --font-bold: "TTCommons-Bold";
-  --font-light: "TTCommons-Light";
-  --font-black: "TTCommons-Black";
-  --font-medium: "TTCommons-Medium";
-  --font-regular: "TTCommons-Regular";
-  --transition: opacity 0.3s ease-in-out;
-}
 .triangle {
   z-index: -2;
   position: absolute;
@@ -128,8 +155,7 @@ a {
   bottom: -100px;
   width: 50%;
 }
-
-h1 {
+.title {
   font-size: 50px;
   font-family: var(--font-black);
   letter-spacing: -1px;
@@ -147,6 +173,7 @@ h1 {
 
 .main-content {
   display: flex;
+  height: 100vh;
 }
 .text {
   font-family: TTCommons-light;
@@ -155,36 +182,24 @@ h1 {
   margin-bottom: 50px;
 }
 .scroll-down {
-  width: 35px;
+  width: 40px;
   position: absolute;
   margin-left: 500px;
   cursor: pointer;
+  bottom: 25px;
+  background: url(./img/Scroll-dovn.svg) center no-repeat;
+  background-size: cover;
+  height: 35px;
 }
 section {
   height: 100vh;
 }
-@font-face {
-  font-family: "TTCommons-Black";
-  src: url(font/TTCommons-Black.ttf), url(font/TTCommons-Black.eot),
-    url(font/TTCommons-Black.woff);
+.self-start {
+  align-self: flex-start;
 }
-@font-face {
-  font-family: "TTCommons-Light";
-  src: url(font/TTCommons-Light.ttf), url(font/TTCommons-Light.eot),
-    url(font/TTCommons-Light.woff);
-}
-@font-face {
-  font-family: "TTCommons-Medium";
-  src: url(font/TTCommons-Medium.eot), url(font/TTCommons-Medium.ttf),
-    url(font/TTCommons-Medium.woff);
-}
-@font-face {
-  font-family: "TTCommons-Bold";
-  src: url(font/TTCommons-Bold.eot), url(font/TTCommons-Bold.ttf),
-    url(font/TTCommons-Bold.woff);
-}
-@font-face {
-  font-family: "TTCommons-Regular";
-  src: url(font/TTCommons-Regular.eot), url(font/TTCommons-Regular.ttf),
-    url(font/TTCommons-Regular.woff);
+
+.section-img {
+  max-width: 666px;
+  width: 100%;
+  height: auto;
 }
