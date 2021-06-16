@@ -102,10 +102,15 @@ body {
 .lang-item:last-child {
   margin-left: 5px;
 }
-ul li {
-  list-style-type: none;
+.nav-list li {
   display: inline-block;
   margin-right: 40px;
+}
+.nav-list li:not(:last-child) {
+  margin-right: 40px;
+}
+.nav-link li {
+  list-style-type: none;
   font-weight: inherit;
   font-size: 14px;
 }
@@ -214,4 +219,10 @@ section {
   width: 1590px;
   height: 400px;
   background-color: #000;
+  z-index: -1;
+}
+.footer-link {
+  list-style-type: none;
+  color: #fff;
+  
 }
