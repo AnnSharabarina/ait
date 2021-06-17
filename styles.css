@@ -213,7 +213,7 @@ section {
   bottom: 20px;
   list-style-type: none;
 }
-.footer-link {
+.footer-list {
   list-style-type: none;
   color: #fff;
   margin-top: 20px;
@@ -224,7 +224,7 @@ section {
   left: 75px;
   letter-spacing: 0.7px;
 }
-.footer-link-col {
+.footer-link {
   list-style-type: none;
   color: #fff;
   margin-top: 20px;
@@ -238,7 +238,8 @@ section {
 .logo-footer {
   position: relative;
   padding-bottom: 100px;
-  margin-left: 1100px;
+  margin-left: 800px;
+  width: 100%;
 }
 
 .col-center {
@@ -247,7 +248,7 @@ section {
 .col-half {
   width: 50%;
 }
-.footer {
+footer {
   background-color: #000;
 }
 .col-one-third {
