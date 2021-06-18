@@ -213,33 +213,36 @@ section {
   bottom: 20px;
   list-style-type: none;
 }
-.footer-list {
+.footer-list-one {
   list-style-type: none;
   color: #fff;
   margin-top: 20px;
   font-family: var(--font-regular);
   position: relative;
   font-size: 12px;
-  top: 60px;
-  left: 75px;
+  top: 85px;
+  right: 55px;
   letter-spacing: 0.7px;
+  line-height: 35px;
 }
-.footer-link {
+.footer-list {
   list-style-type: none;
   color: #fff;
   margin-top: 20px;
   font-family: var(--font-bold);
   position: relative;
   font-size: 12px;
-  bottom: 8px;
+  bottom: 80px;
   left: 220px;
   letter-spacing: 0.7px;
+  line-height: 35px;
+  width: 385px;
 }
 .logo-footer {
   position: relative;
-  padding-bottom: 100px;
-  margin-left: 800px;
-  width: 100%;
+  bottom: 200px;
+  margin-left: 950px;
+  width: 47%;
 }
 
 .col-center {
@@ -250,7 +253,46 @@ section {
 }
 footer {
   background-color: #000;
+  height: 500px;
 }
 .col-one-third {
   width: 33%;
+}
+.icon-whatsapp {
+  background: url(./img/whatsapp.svg) center no-repeat;
+  width: 25px;
+  position: absolute;
+  margin-left: 250px;
+  cursor: pointer;
+  bottom: 100px;
+  background-size: cover;
+  height: 35px;
+}
+.icon-instagram {
+  background: url(./img/instagram.svg) center no-repeat;
+  width: 25.4px;
+  position: absolute;
+  margin-left: 250px;
+  cursor: pointer;
+  bottom: 100px;
+  left: 50px;
+  background-size: cover;
+  height: 35px;
+}
+.icon-vk {
+  background: url(./img/vk.svg) center no-repeat;
+  width: 25px;
+  position: absolute;
+  margin-left: 250px;
+  cursor: pointer;
+  bottom: 100px;
+  left: 100px;
+  background-size: cover;
+  height: 35px;
+}
+.IT {
+  top: 110px;
+  position: relative;
+  right: 25px;
+  width: 25%;
 }
